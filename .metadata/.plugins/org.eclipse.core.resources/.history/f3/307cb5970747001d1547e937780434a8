@@ -1,0 +1,15 @@
+package br.com.voeairlines.treinamentopoo;
+
+public class Algoritmo01 {
+	
+	public void resultado() {
+		
+		System.out.println("\nResultado");
+		System.out.println("Voçê só aprende a programar programando! É preciso fazer"
+				+ "todos os algoritmos para aprender");
+		
+		
+		
+	}
+
+}

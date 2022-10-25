@@ -1,0 +1,12 @@
+package br.com.voeairlines.treinamentopoo;
+
+public class Algoritmo01 {
+	
+	public String imprimirMensagem() {
+		return "Você só aprende a programar programando";
+		
+		return "É preciso fazer todos os algoritmos para aprender a programar";
+		
+	}
+
+}

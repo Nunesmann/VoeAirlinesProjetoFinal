@@ -1,0 +1,13 @@
+package br.com.voeairlines.treinamentopoo;
+
+public class Algoritmo02 {
+
+	public void resultado() {
+		
+		System.out.println("\nResultado");
+		System.out.println("Escreva seu nome");
+		
+
+	}
+
+}

@@ -1,0 +1,45 @@
+package br.com.voeairlines.treinamentopoo;
+
+import java.util.Scanner;
+
+public class Principal {
+
+	public static void main(String[] args) {
+	
+		Scanner leia = new Scanner(System.in);
+		
+				System.out.println("Professor escolha um número de 01 a 26 para corrigir o meu trabalho");
+				int opcao = leia.nextInt();
+				
+				switch(opcao) {
+				case 1:
+					new Algoritmo01().resultado();
+					break;
+					
+				case 2:
+					new Algoritmo02().resultado();
+					break;
+					
+				case 3:
+					new Algoritmo03().resultado();
+					break;
+					
+				case 4:
+					new Algoritmo04().resultado();
+					break;
+					
+				case 5:
+					new Algoritmo05().resultado();
+					break;
+					
+				case 6:
+					new Algoritmo06().resultado();
+					break;
+				
+				
+				}
+				
+				leia.close();
+	}
+
+}

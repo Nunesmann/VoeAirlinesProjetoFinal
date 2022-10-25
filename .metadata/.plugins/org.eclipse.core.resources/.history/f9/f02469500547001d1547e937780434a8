@@ -1,0 +1,94 @@
+package br.com.voeairlines.treinamentopoo;
+
+import java.util.Scanner;
+
+public class Principal {
+
+	public static void main(String[] args) {
+	
+		Scanner leia = new Scanner(System.in);
+		
+				System.out.println("Professor escolha um número de 01 a 26 para corrigir o meu trabalho");
+				int opcao = leia.nextInt();
+				
+				switch(opcao) {
+				case 1:
+					Algoritmo01 alg1 = new Algoritmo01();
+					System.out.println(alg1.imprimirMensagem());
+					break;
+					
+				case 2:
+					Algoritmo01 alg1 = new Algoritmo01();
+					System.out.println(alg1.imprimirMensagem());
+					break;
+				
+				case 3:
+					Algoritmo01 alg1 = new Algoritmo01();
+					System.out.println(alg1.imprimirMensagem());
+					break;
+				
+				case 4:
+					Algoritmo01 alg1 = new Algoritmo01();
+					System.out.println(alg1.imprimirMensagem());
+					break;
+					
+				case 5:
+					Algoritmo01 alg1 = new Algoritmo01();
+					System.out.println(alg1.imprimirMensagem());
+					break;
+					
+				case 6:
+					Algoritmo01 alg1 = new Algoritmo01();
+					System.out.println(alg1.imprimirMensagem());
+					break;
+					
+				case 7:
+					Algoritmo01 alg1 = new Algoritmo01();
+					System.out.println(alg1.imprimirMensagem());
+					break;
+					
+				case 8:
+					Algoritmo01 alg1 = new Algoritmo01();
+					System.out.println(alg1.imprimirMensagem());
+					break;	
+					
+				case 9:
+					Algoritmo01 alg1 = new Algoritmo01();
+					System.out.println(alg1.imprimirMensagem());
+					break;
+					
+				case 10:
+					Algoritmo01 alg1 = new Algoritmo01();
+					System.out.println(alg1.imprimirMensagem());
+					break;
+					
+				case 11:
+					Algoritmo01 alg1 = new Algoritmo01();
+					System.out.println(alg1.imprimirMensagem());
+					break;
+					
+				case 12:
+					Algoritmo01 alg1 = new Algoritmo01();
+					System.out.println(alg1.imprimirMensagem());
+					break;
+					
+				case 13:
+					Algoritmo01 alg1 = new Algoritmo01();
+					System.out.println(alg1.imprimirMensagem());
+					break;
+					
+				case 14:
+					Algoritmo01 alg1 = new Algoritmo01();
+					System.out.println(alg1.imprimirMensagem());
+					break;
+					
+				case 15:
+					Algoritmo01 alg1 = new Algoritmo01();
+					System.out.println(alg1.imprimirMensagem());
+					break;
+				}
+				
+				leia.close();
+	}
+
+}

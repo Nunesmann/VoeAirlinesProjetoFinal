@@ -1,0 +1,12 @@
+package br.com.voeairlines.treinamentopoo;
+
+public class Algoritmo01 {
+	
+	public void resultado() {
+		return "Voçê só aprende a programar programando! Você só aprende a programar programando";
+		
+		
+		
+	}
+
+}

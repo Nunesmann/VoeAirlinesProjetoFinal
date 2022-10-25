@@ -1,0 +1,14 @@
+package br.com.voeairlines.treinamentopoo;
+
+public class Algoritmo01 {
+	
+	public String imprimirMensagem() {
+		
+	System.out.println("Voçê só aprende a programar progarmando");
+		//return "Você só aprende a programar programando";
+		
+		
+		
+	}
+
+}
